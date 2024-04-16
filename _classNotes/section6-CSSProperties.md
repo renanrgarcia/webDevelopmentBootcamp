@@ -20,4 +20,26 @@
     - Use fonts.google.com to find free fonts to use
   - text-align
     - left / right / center / justify
-  
+
+## Box Model
+- ![Box model](boxModel.png)
+- border: thickness style color
+  - Ex: 
+  `p { border: 1px solid black; }`
+  `h1 { border-bottom: 1px dotted blue; }`
+  `p { border-width: 5px 5px 5px 5px; }`
+- padding: top right bottom left
+- margin: top right bottom left
+- width
+- height
+- display
+  - block / inline / inline-block
+  - Ex: 
+  `p { display: inline-block; }`
+  `p { display: block; }`
+
+## Content dividing
+- <div></div>: add a container to divide content
+
+## Pesticide for Chrome
+- Used to debug CSS
