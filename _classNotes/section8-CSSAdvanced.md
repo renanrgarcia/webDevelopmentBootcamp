@@ -20,7 +20,8 @@
 ## Responsive Design
 - Media queries
   - Ex:
-  `@media (max-width: 600px) { ... }`
+  `@media (max-width: 600px) and (min-width: 200px) { ... }`
+  `@media (orientation: landscape) { ... }`
 - CSS Grid
   
 - CSS Flexbox
